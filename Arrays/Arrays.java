@@ -2,7 +2,7 @@ package Arrays;
 
 public class Arrays {
     public static void main(String[] args) {
-        // ARRAYS UNIDIMENSIONAIS (UNIDIMENSIONAL)
+        // ARRAYS UNIDIMENSIONAIS (VETORES)
         int[] numeros = new int[5];
         numeros[0] = 10;
         numeros[1] = 15;
@@ -16,7 +16,7 @@ public class Arrays {
             System.out.println(numeros[i]);
         }
 
-        // ARRAYS BIDIMENSIONAIS (BIDIMENSIONAL)
+        // ARRAYS BIDIMENSIONAIS (MATRIZES)
         int[][] matriz = {
             {1, 2, 3, 4},
             {5, 6, 7, 8},
